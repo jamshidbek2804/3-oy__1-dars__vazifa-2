@@ -1,0 +1,88 @@
+main {
+  width: 100%;
+  background: #004047;
+  /* height: 100vh; */
+}
+
+.title {
+  font-family: "Livvic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.row {
+  margin-top: 20px;
+  padding-bottom: 80px;
+}
+
+.card {
+  position: relative;
+  background: #012f34;
+  width: 350px;
+  height: 253px;
+  padding: 32px 24px;
+}
+
+.card-img {
+  width: 96px;
+  height: 96px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-family: "Livvic", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79c8c7;
+}
+
+.card-paragraf {
+  font-family: "Livvic", sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.card-subtitle {
+  font-family: "Livvic", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  margin: 0 24px;
+}
+
+.messangers {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.plus {
+  left: calc(50% - 56px / 2);
+  top: calc(50% - 56px / 2 + 126.5px);
+}
+
+.plus:hover circle {
+  cursor: pointer;
+  fill: #79c8c7;
+}
+
+.plus:hover path {
+  cursor: pointer;
+}
+
+.icon:hover path {
+  cursor: pointer;
+  fill: rgba(246, 126, 126, 1);
+}
